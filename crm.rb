@@ -6,5 +6,13 @@ get '/' do
 end
 
 get '/contacts' do
+	"hello"
 	erb :contacts
+end
+
+get '/new' do
+	"hi"
+	erb :new
+
+
 end
