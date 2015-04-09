@@ -1,0 +1,40 @@
+body {
+    background-image:url('http://i.imgur.com/zXR5XCj.png');
+    background-repeat: repeat-x repeat-y;
+    font-family: Helvetica;
+    font-color: 777777;
+    font-size:9px;
+    letter-spacing:2px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+.content {
+    margin-top: 150px;
+    margin-bottom: 2em;
+    min-height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer, header {
+    display: block;
+    clear: both;
+}
+
+a:link {
+    color: #74c3b0;
+}
+
+a:visited {
+    color: #74c3b0;
+}
+
+a:hover {
+    color: #74c3b0;
+}
